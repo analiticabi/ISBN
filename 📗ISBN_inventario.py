@@ -8,7 +8,7 @@ Created on Mon Jun 17 12:51:50 2024
 import numpy as np
 import pandas as pd
 #import matplotlib as pl
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
