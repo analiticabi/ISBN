@@ -35,10 +35,10 @@ def add_logo(logo_path, width, height):
     modified_logo = logo.resize((width, height))
     return modified_logo
 
-my_logo = add_logo(logo_path="C:/Users/hpalacios/Downloads/Logo_SM.png", width=90, height=90)
+my_logo = add_logo(logo_path="logo_SM.png", width=90, height=90)
 st.sidebar.image(my_logo)
 
-#my_libro = add_logo(logo_path="C:/Users/hpalacios/Downloads/open-book.jpg", width=60, height=30)
+#my_libro = add_logo(logo_path="open-book.jpg", width=60, height=30)
 #st.sidebar.image(my_libro)
 
 #st.sidebar.image(add_logo(logo_path="your/logo/path", width=50, height=60)) 
