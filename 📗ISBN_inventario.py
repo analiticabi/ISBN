@@ -43,15 +43,8 @@ st.sidebar.image(my_logo)
 
 #st.sidebar.image(add_logo(logo_path="your/logo/path", width=50, height=60)) 
 
-
 st.sidebar.header("📈 ISBN")
 
-
-# loading in the model to predict on the data 
-pickle_in = open("C:/Users/hpalacios/Downloads/archive/clustering_km.pkl", 'rb') 
-clustering_km = pickle.load(pickle_in) 
-
- 
 ############Título ###############################
 st.title("SM España - Análisis de ISBN") 
 
@@ -76,7 +69,7 @@ def main():
 
 main()
 
-datos = pd.read_csv('C:/Users/hpalacios/Downloads/t_ocr.csv', delimiter=',')
+datos = pd.read_csv('t_ocr.csv', delimiter=',')
 
 st.subheader('Dashboard de ISBN', divider=True)
 
