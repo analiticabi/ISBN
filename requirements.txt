@@ -1,6 +1,2 @@
 plotly
-pygeos
-geopandas
-folium
-streamlit-folium
 plotly.express
