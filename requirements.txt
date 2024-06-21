@@ -6,6 +6,8 @@ numpy>=1.18.5
 opencv-python
 tqdm>=4.41.0
 plotly
+streamlit
+pandas
 # wandb
 
 # Plotting ------------------------------------
