@@ -134,7 +134,7 @@ acierto
 fig4 = px.line(x=acierto['timestamp'], y=acierto['Tasa_acierto'])
 st.plotly_chart(fig4)
 
-st.subheader('Tabla Procesados correctamente:', divider=True) 
+st.subheader('Tabla estadística:', divider=True) 
 
 acierto_descr = acierto.describe()
 
