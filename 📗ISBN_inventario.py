@@ -73,7 +73,7 @@ datos = pd.read_csv('t_ocr.csv', delimiter=',')
 
 st.subheader('Dashboard de ISBN', divider=True)
 
-st.subheader('Tabla datos de origen:', divider=False)
+#st.subheader('Tabla datos de origen:', divider=False)
 #datos
 
 from datetime import datetime, timedelta
