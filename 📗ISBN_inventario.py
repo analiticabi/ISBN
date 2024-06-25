@@ -69,7 +69,7 @@ def main():
 
 main()
 
-datos = pd.read_csv('t_ocr.csv', delimiter=',')
+datos = pd.read_csv('t_ocr11.csv', delimiter=',')
 
 st.subheader('Dashboard de ISBN', divider=True)
 
