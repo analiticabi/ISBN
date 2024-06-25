@@ -46,7 +46,7 @@ def add_logo(logo_path, width, height):
 st.sidebar.header("📈 ISBN")
 
 ############Título ###############################
-st.title("SM España - Análisis de ISBN") 
+st.title("España - Análisis de ISBN") 
 
 
 #################################################
@@ -69,12 +69,12 @@ def main():
 
 main()
 
-datos = pd.read_csv('t_ocr11.csv', delimiter=',')
+datos = pd.read_csv('t_ocr.csv', delimiter=',')
 
 st.subheader('Dashboard de ISBN', divider=True)
 
 st.subheader('Tabla datos de origen:', divider=False)
-datos
+#datos
 
 from datetime import datetime, timedelta
 datos['timestamp'] = pd.to_datetime(datos['timestamp'])
