@@ -25,7 +25,7 @@ st.set_page_config(page_title="ISBN - inventario", page_icon="📈")
 
 #st.markdown("# Plotting Demo")
 
-st.sidebar.title("Analítica Avanzada")
+st.sidebar.title("Analítica de Negocio")
 
 ######Insertar logo en Sidebar######################################################
 
